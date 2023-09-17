@@ -20,3 +20,16 @@
 18. Вывести несколько последних строк из текстового файла - `tail body.txt`
 19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - `less body.txt`
 20. Вывести дату и время - `date`
+
+## Task*
+
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5006/terminal-hw-request
+   - `curl "http://162.55.220.72:5006/terminal-hw-request"`
+
+![1](https://github.com/supremexkid/Terminal/assets/126493566/ae1fb9c9-eeef-465b-9e77-7cd827b79e02)
+
+2) Ответ серверу.
+    - `"http://162.55.220.72:5005/get_method?name=(login)&age=(17)"`
+   
+![2](https://github.com/supremexkid/Terminal/assets/126493566/4b13e0dc-83bc-4dbc-b8e1-be4371cf0b05)
