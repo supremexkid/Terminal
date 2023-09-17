@@ -29,7 +29,19 @@ http://162.55.220.72:5006/terminal-hw-request
 
 ![1](https://github.com/supremexkid/Terminal/assets/126493566/ae1fb9c9-eeef-465b-9e77-7cd827b79e02)
 
-2) Ответ серверу.
+ Ответ серверу.
     - `"http://162.55.220.72:5005/get_method?name=(login)&age=(17)"`
    
 ![2](https://github.com/supremexkid/Terminal/assets/126493566/4b13e0dc-83bc-4dbc-b8e1-be4371cf0b05)
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+```
+#!/bin/sh
+cd Terminal
+mkdir {first,second,third}
+cd second
+touch {file-1.txt,file-2.txt,file-3.txt,file-4.json,file-5.json}
+mkdir {fourth,fifth,sixth}
+ls -la
+mv file-1.txt file-5.json fourth
+```
