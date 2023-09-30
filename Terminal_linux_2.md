@@ -11,37 +11,47 @@
 
 ```
 $ cat > tf_2.txt
-#Ввести текст:
+Ввести текст:
 the first 1
 the second 2
 the third 3
-#Сохранить:
-Enter ctrl + c
+Сохранить: Enter ctrl + c
 ```
 
  7. Зайти в папку **inner_dir_1** - `cd inner_dir_1`
  8. Через **cat** сделать текстовый файл **tf_3.txt**  c любыми строками
 ```
 cat > tf_3.txt Enter
-#Ввести текст:
+Ввести текст:
 first
 second
 third
-#Сохранить:
-Enter ctrl + c
+Сохранить: Enter ctrl + c
 ```
- 10. Через cat добавить в текстовый файл `tf_3.txt` строку “the second 2”
- cat >> tf_3.txt Enter
-Ввести текст: the second 2 Enter ctrl + c
- 11. Через cat добавить в текстовый файл `tf_3.txt` строку “the sec 2”
- cat >> tf_3.txt Enter
-Ввести текст: the sec 2 Enter ctrl + c
- 12. Через cat добавить в текстовый файл `tf_2.txt` строку “the sec 3”
- cat >> ../tf_2.txt Enter
-Ввести текст: the sec 3 Enter ctrl + c
- 13. Через cat добавить в текстовый файл `tf_3.txt` строку “the SeCoNd 2”
- cat >> tf_3.txt
-Ввести текст: the SeCoNd Enter ctrl + c
+ 10. Через **cat** добавить в текстовый файл **tf_3.txt** строку ***the second 2***
+```
+cat >> tf_3.txt Enter
+Ввести текст: the second 2
+Сохранить: Enter ctrl + c
+```
+ 11. Через **cat** добавить в текстовый файл **tf_3.txt** строку ***the sec 2***
+```
+cat >> tf_3.txt Enter
+Ввести текст: the sec 2
+Сохранить: Enter ctrl + c
+```
+ 12. Через **cat** добавить в текстовый файл **tf_2.txt** строку ***the sec 3***
+```
+cat >> ../tf_2.txt Enter
+Ввести текст: the sec 3
+Сохранить: Enter ctrl + c
+```
+ 13. Через **cat** добавить в текстовый файл **tf_3.txt** строку ***the SeCoNd 2***
+```
+cat >> tf_3.txt
+Ввести текст: the SeCoNd
+Сохранить: Enter ctrl + c
+```
  14. Через cat добавить в текстовый файл `tf_2.txt` строку “the seConD 2”
  cat >> ../tf_2.txt
 Ввести текст: the seConD 2 Enter ctrl + c
